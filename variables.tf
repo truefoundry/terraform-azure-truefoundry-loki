@@ -5,12 +5,12 @@ variable "cluster_name" {
 
 variable "resource_group_name" {
   description = "Resource group name"
-  type = string
+  type        = string
 }
 
 variable "location" {
   description = "Location of the cluster"
-  type = string
+  type        = string
 }
 
 variable "cluster_oidc_issuer_url" {

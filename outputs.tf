@@ -3,5 +3,5 @@ output "loki_identity_client_id" {
 }
 
 output "loki_container_id" {
-    value = azurerm_storage_container.loki.id
+  value = azurerm_storage_container.loki.id
 }
